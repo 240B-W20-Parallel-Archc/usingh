@@ -80,7 +80,8 @@ if __name__ == "__main__":
             exit(-1)
 
 
-        plotOneSet(fp.readlines(), fname, cols[colIdx])
+        #plotOneSet(fp.readlines(), fname, cols[colIdx])
+        doPlot(fp.readlines(), fname)
         colIdx = colIdx + 1
 
     finalizePlot("_".join(sys.argv[1:]))
