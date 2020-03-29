@@ -15,7 +15,7 @@ INSTRUCTIONS:
 The following instructions describe each file:
 - cache_perf.cpp: main c++ code file for cache performance, generates result, and stores them in csv format.
 - plot.py: Generates plots from csvfile file
-- Makefile: makefile
+- Makefile: makefile 
 - run_all.sh: Shell script which deletes and recompiles the 'cacheperf.out' executable and generates and prints all results for sequential and strided access.
 - doit.sh: runs the cache performance code for random access for read and read-modify-write operations for 1, 2, 4, 8 and 16 threads.
 - cpuconfig.png: screenshot of cpu configuration
