@@ -22,8 +22,8 @@ make
  #Read - Threads - Strided
  for t in 1 2 4 8 12 16 
  do
- 	echo -e "Read Random Strided access with $t threads..\n"
- 	./latency -t $t -s
+ 	      echo -e "Read Random Strided access with $t threads..\n"
+ 	      ./cacheperf  -t $t -s
  done
  
  
@@ -31,6 +31,6 @@ make
  #Read-Write - Threads - Strided
  for t in 1 2 4 8 12 16 
  do
- 	echo -e "Read-Write Strided access with $t threads..\n"
- 	./latency -t $t -s -rw
+ 	      echo -e "Read-Write Strided access with $t threads..\n"
+ 	      ./cacheperf  -t $t -s -rw
  done
